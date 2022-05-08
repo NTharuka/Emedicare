@@ -104,7 +104,7 @@ public class Payment extends AppCompatActivity {
                 String EXP = exp.getText().toString();
 
                 if(methodRadio.getCheckedRadioButtonId() == -1){
-                    Toast.makeText(Payment.this, "Select payment method", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Payment.this, "Select your payment method", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
