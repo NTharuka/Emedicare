@@ -105,7 +105,7 @@ public class Profile extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(Profile.this, "Something Wrong error found!" ,Toast.LENGTH_LONG).show();
+                Toast.makeText(Profile.this, "Error found!" ,Toast.LENGTH_LONG).show();
             }
         });
 
@@ -133,13 +133,16 @@ public class Profile extends AppCompatActivity {
         NavDrawer.openDrawer(drawerLayout);
     }
 
+
     public void ClickLogo(View view){
         NavDrawer.closeDrawer(drawerLayout);
     }
 
+
     public void ClickHome (View view){
         NavDrawer.redirectActivity(this,HomeActivity.class);
     }
+
 
     public void ClickMyProfile (View view){
         NavDrawer.redirectActivity(this,Profile.class);
