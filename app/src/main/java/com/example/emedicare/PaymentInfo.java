@@ -155,7 +155,7 @@ public class PaymentInfo extends AppCompatActivity {
         DataRef.child(testKey).updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
-                Toast.makeText(PaymentInfo.this, "Payment Update successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(PaymentInfo.this, "Payment Is successfully Updated", Toast.LENGTH_SHORT).show();
             }
         });
 
