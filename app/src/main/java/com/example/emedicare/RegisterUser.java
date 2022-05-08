@@ -132,13 +132,13 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         }
 
         if(height.isEmpty()){
-            editTextHeight.setError("Height is required");
+            editTextHeight.setError("Height is required!");
             editTextWeight.requestFocus();
             return;
         }
 
         if(weight.isEmpty()){
-            editTextWeight.setError("Weight is required");
+            editTextWeight.setError("Weight is required!");
             editTextWeight.requestFocus();
             return;
         }
