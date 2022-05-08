@@ -107,7 +107,7 @@ public class PaymentInfo extends AppCompatActivity {
                     updatePayment( CardNo, CVC, EXP );
                 }
                 else{
-                    Toast.makeText(PaymentInfo.this, "Please Fill All Edit Text Fields.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentInfo.this, "Please Fill Out All Fields.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
