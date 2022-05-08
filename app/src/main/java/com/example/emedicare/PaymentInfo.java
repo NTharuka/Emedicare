@@ -124,7 +124,7 @@ public class PaymentInfo extends AppCompatActivity {
                             DataRef.removeValue();
                             //clearControls();
 
-                            Toast.makeText(getApplicationContext(), "Payment Deleted Successfully!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Payment Deleted is Successfully!", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         }
                         else
