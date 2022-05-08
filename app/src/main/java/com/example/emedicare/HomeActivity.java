@@ -35,7 +35,7 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DocAppointment.class);
 
         intent.putExtra(EXTRA_Message1, "OTOLARYNGOLOGIST");
-        intent.putExtra(EXTRA_Message2, "Dr. Anoma Weerasinghe");
+        intent.putExtra(EXTRA_Message2, "Dr. Anoma Perera");
         startActivity(intent);
     }
 
