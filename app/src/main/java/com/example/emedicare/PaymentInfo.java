@@ -91,7 +91,7 @@ public class PaymentInfo extends AppCompatActivity {
                     startActivity(i);
                 }
                 else{
-                    Toast.makeText(PaymentInfo.this, "Please Fill All Edit Text Fields.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentInfo.this, "Please Fill out All Fields.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -155,7 +155,7 @@ public class PaymentInfo extends AppCompatActivity {
         DataRef.child(testKey).updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
-                Toast.makeText(PaymentInfo.this, "Payment successfully updated", Toast.LENGTH_SHORT).show();
+                Toast.makeText(PaymentInfo.this, "Payment Is successfully Updated", Toast.LENGTH_SHORT).show();
             }
         });
 
