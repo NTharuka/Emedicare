@@ -126,19 +126,19 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         }
 
         if(password.length() < 6){
-            editTextPassword.setError("Min Password length should be 6 charactors");
+            editTextPassword.setError("Minimum Password length should be 6 charactors");
             editTextPassword.requestFocus();
             return;
         }
 
         if(height.isEmpty()){
-            editTextHeight.setError("Height is required");
+            editTextHeight.setError("Height is required!");
             editTextWeight.requestFocus();
             return;
         }
 
         if(weight.isEmpty()){
-            editTextWeight.setError("Weight is required");
+            editTextWeight.setError("Weight is required!");
             editTextWeight.requestFocus();
             return;
         }
