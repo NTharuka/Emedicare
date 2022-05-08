@@ -126,7 +126,7 @@ public class AppointmentInfo extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         }
                         else
-                            Toast.makeText(getApplicationContext(), "No Source To Display!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "No Source To Display Here!", Toast.LENGTH_SHORT).show();
 
                     }
 
