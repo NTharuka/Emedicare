@@ -88,7 +88,7 @@ public class AppointmentInfo extends AppCompatActivity {
                     updateTest( StartTime, EndTime, Day );
                 }
                 else{
-                    Toast.makeText(AppointmentInfo.this, "Please Fill This All Edit Text Fields.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AppointmentInfo.this, "Please Fill This All Edit Text Fields Correctly.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
