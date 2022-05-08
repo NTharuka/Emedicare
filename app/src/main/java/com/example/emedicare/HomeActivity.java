@@ -53,7 +53,7 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DocAppointment.class);
 
         intent.putExtra(EXTRA_Message1, "DENTIST");
-        intent.putExtra(EXTRA_Message2, "Dr. Senarath Kumara");
+        intent.putExtra(EXTRA_Message2, "Dr. Senarath paranavitharana");
         startActivity(intent);
     }
 
@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DocAppointment.class);
 
         intent.putExtra(EXTRA_Message1, "OBSTETRICIAN GYNECOLOGYST(VOG)");
-        intent.putExtra(EXTRA_Message2, "Dr. Anura Kumara");
+        intent.putExtra(EXTRA_Message2, "Dr. Anura Disanayake");
         startActivity(intent);
     }
 

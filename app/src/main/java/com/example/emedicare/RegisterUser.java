@@ -96,25 +96,25 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
 
 
         if(fullname.isEmpty()){
-            editTextFullName.setError("Full Name is Required");
+            editTextFullName.setError("Full Name is Required!");
             editTextFullName.requestFocus();
             return;
         }
 
         if(age.isEmpty()){
-            editTextAge.setError("Birthday is required");
+            editTextAge.setError("Birthday is required!");
             editTextAge.requestFocus();
             return;
         }
 
         if(email.isEmpty()){
-            editTextEmail.setError("Email is required");
+            editTextEmail.setError("Email is required!");
             editTextEmail.requestFocus();
             return;
         }
 
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            editTextEmail.setError("Please provide an Valid Email");
+            editTextEmail.setError("Please enter an Valid Email");
             editTextEmail.requestFocus();
             return;
         }
