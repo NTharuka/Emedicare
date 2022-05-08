@@ -89,7 +89,7 @@ public class DocAppointmentInfo extends AppCompatActivity {
                     }
                 }
                 else{
-                    Toast.makeText(DocAppointmentInfo.this, "Error with fetching data", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DocAppointmentInfo.this, "Error with  of fetching data", Toast.LENGTH_SHORT).show();
                 }
             }
 

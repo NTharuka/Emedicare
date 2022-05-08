@@ -71,11 +71,11 @@ public class CalorieCal extends AppCompatActivity {
             public void onClick(View view) {
 
                 if(year.length() == 0){
-                    errorCalorie.setText("Please your enter Age");
+                    errorCalorie.setText("Please enter Age");
                 }else if(feet.length() == 0){
                     errorCalorie.setText("Please enter Height");
                 }else if(weight.length() == 0){
-                    errorCalorie.setText("Please your enter Weight");
+                    errorCalorie.setText("Please enter Weight");
                 }else if(!male.isChecked() && !feMale.isChecked()) {
                     errorCalorie.setText("Please select gender");
                 }else{
