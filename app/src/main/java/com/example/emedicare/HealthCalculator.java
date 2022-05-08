@@ -57,7 +57,7 @@ public class HealthCalculator extends AppCompatActivity {
         String bloodpresLevel = txtBloodPressure.getText().toString();
 
         if(TextUtils.isEmpty(cholesterolLevel) || TextUtils.isEmpty(diabetesLevel) || TextUtils.isEmpty(bloodpresLevel)) {
-            Toast.makeText(this, "Please complete the fields",
+            Toast.makeText(this, "Please complete these fields correctly",
                     Toast.LENGTH_LONG).show();
         } else {
 
