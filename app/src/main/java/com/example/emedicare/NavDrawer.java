@@ -71,7 +71,7 @@ public class NavDrawer extends AppCompatActivity {
 
         builder.setTitle("Logout");
 
-        builder.setMessage("Are you sure want to logout?");
+        builder.setMessage("Are you sure want to logout this application?");
 
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
