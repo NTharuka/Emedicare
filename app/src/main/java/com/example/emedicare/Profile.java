@@ -54,6 +54,7 @@ public class Profile extends AppCompatActivity {
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userID = user.getUid();
 
+
         final TextView fullNameTextView = (TextView) findViewById(R.id.fullName);
         final TextView emailAddressTextView = (TextView) findViewById(R.id.emailAddress);
         final TextView ageTextView = (TextView) findViewById(R.id.age);
@@ -62,6 +63,9 @@ public class Profile extends AppCompatActivity {
         final TextView weightTextView = (TextView) findViewById(R.id.weight);
 
         ProfileImage = findViewById(R.id.profilepic);
+
+        delUser = (Button) findViewById(R.id.delUser);
+        upUser = (Button) findViewById(R.id.upUser);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -101,12 +105,11 @@ public class Profile extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(Profile.this, "Something Wrong Happend!" ,Toast.LENGTH_LONG).show();
+                Toast.makeText(Profile.this, "Something Wrong error found!" ,Toast.LENGTH_LONG).show();
             }
         });
 
-        delUser = (Button) findViewById(R.id.delUser);
-        upUser = (Button) findViewById(R.id.upUser);
+
 
         upUser.setOnClickListener(new View.OnClickListener() {
             @Override

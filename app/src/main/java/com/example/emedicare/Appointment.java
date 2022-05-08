@@ -79,7 +79,7 @@ public class Appointment extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(Appointment.this, "Something Wrong Happend!" ,Toast.LENGTH_LONG).show();
+                Toast.makeText(Appointment.this, "Error found!" ,Toast.LENGTH_LONG).show();
             }
         });
 
