@@ -66,7 +66,7 @@ public class DocAppointment extends AppCompatActivity {
                 i.putExtra("Test_name", test_name);
                 i.putExtra("Doc_name", doc_name);
                 if(radioGroupHospital.getCheckedRadioButtonId() == -1){
-                    Toast.makeText(DocAppointment.this, "choose Hospital", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DocAppointment.this, "Select a Hospital", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
