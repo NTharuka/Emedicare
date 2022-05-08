@@ -68,7 +68,7 @@ public class BMI extends AppCompatActivity{
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(BMI.this, "Something Wrong Happend!" ,Toast.LENGTH_LONG).show();
+                Toast.makeText(BMI.this, "Something Wrong error found!" ,Toast.LENGTH_LONG).show();
             }
         });
 
