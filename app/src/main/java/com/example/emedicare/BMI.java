@@ -60,6 +60,8 @@ public class BMI extends AppCompatActivity{
                     _HEIGHT = userProfile.height;
                     _WEIGHT = userProfile.weight;
 
+
+
                     height.setText(_HEIGHT);
                     weight.setText(_WEIGHT);
 
